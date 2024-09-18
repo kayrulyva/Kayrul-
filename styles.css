@@ -1,0 +1,47 @@
+body {
+    
+    font-family: Arial, sans-serif;
+    display: flex;
+    background-image: url("latar/tes.jpg");
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 8;
+}
+
+.container {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.1);
+    width: 380px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 8px;
+}
+
+input, button {
+    padding: 10px;
+    margin-bottom: 12px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+div1{
+    color: blue;
+}
+button {
+    background-color: green;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
